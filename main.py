@@ -29,13 +29,13 @@ row3 = QHBoxLayout()
 
 row1.addWidget(title_text, alignment=Qt.AlignCenter)
 
-row2.addWidget(text1 , alignment=Qt.AlignLeft)
+row2.addWidget(text1 , alignment=Qt.AlignCenter)
 row2.addWidget(text2 , alignment=Qt.AlignCenter)
-row2.addWidget(text3 , alignment=Qt.AlignRight)
+row2.addWidget(text3 , alignment=Qt.AlignCenter)
 
-row3.addWidget(button1, alignment=Qt.AlignLeft)
-row3.addWidget(button2, alignment=Qt.AlignCenter)
-row3.addWidget(button3, alignment=Qt.AlignRight)
+row3.addWidget(button1)
+row3.addWidget(button2)
+row3.addWidget(button3)
 
 master_layout.addLayout(row1)
 master_layout.addLayout(row2)
